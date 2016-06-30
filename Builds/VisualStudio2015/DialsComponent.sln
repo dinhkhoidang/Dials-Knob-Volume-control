@@ -1,0 +1,19 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2015
+Project("{52E52074-6D57-CBAE-1588-B32D316AE4DF}") = "DialsComponent", "DialsComponent.vcxproj", "{F1E06BCF-87C7-DFF2-E12F-77CBF8094A75}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F1E06BCF-87C7-DFF2-E12F-77CBF8094A75}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F1E06BCF-87C7-DFF2-E12F-77CBF8094A75}.Debug|Win32.Build.0 = Debug|Win32
+		{F1E06BCF-87C7-DFF2-E12F-77CBF8094A75}.Release|Win32.ActiveCfg = Release|Win32
+		{F1E06BCF-87C7-DFF2-E12F-77CBF8094A75}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

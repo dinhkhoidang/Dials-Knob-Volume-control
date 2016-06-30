@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="rwYbT7" name="DialsComponent" projectType="guiapp" version="1.0.0"
+              bundleIdentifier="com.yourcompany.DialsComponent" includeBinaryInAppConfig="1"
+              jucerVersion="4.2.1">
+  <MAINGROUP id="hgS24W" name="DialsComponent">
+    <GROUP id="{A2E13B95-062C-AE68-48BA-80F62A60C0ED}" name="Source">
+      <FILE id="eF6kIT" name="ToggleSwitch.cpp" compile="1" resource="0"
+            file="Source/ToggleSwitch.cpp"/>
+      <FILE id="CNTr6m" name="ToggleSwitch.h" compile="0" resource="0" file="Source/ToggleSwitch.h"/>
+      <FILE id="QyXEWr" name="RadioComponent.cpp" compile="1" resource="0"
+            file="Source/RadioComponent.cpp"/>
+      <FILE id="IjBSoh" name="RadioComponent.h" compile="0" resource="0"
+            file="Source/RadioComponent.h"/>
+      <FILE id="bAkXcJ" name="DialDemo.cpp" compile="1" resource="0" file="Source/DialDemo.cpp"/>
+      <FILE id="JZ1MHo" name="DialDemo.h" compile="0" resource="0" file="Source/DialDemo.h"/>
+      <FILE id="EdIQ7w" name="DialsCus.cpp" compile="1" resource="0" file="Source/DialsCus.cpp"/>
+      <FILE id="kmQVUb" name="DialsCus.h" compile="0" resource="0" file="Source/DialsCus.h"/>
+      <FILE id="UiKxFC" name="LAFDials.cpp" compile="1" resource="0" file="Source/LAFDials.cpp"/>
+      <FILE id="XWb3Ek" name="LAFDials.h" compile="0" resource="0" file="Source/LAFDials.h"/>
+      <FILE id="klaezp" name="DialsComponent.cpp" compile="1" resource="0"
+            file="Source/DialsComponent.cpp"/>
+      <FILE id="WzsDiL" name="DialsComponent.h" compile="0" resource="0"
+            file="Source/DialsComponent.h"/>
+      <FILE id="kLkdRi" name="MainComponent.cpp" compile="1" resource="0"
+            file="Source/MainComponent.cpp"/>
+      <FILE id="sH1Dkc" name="MainComponent.h" compile="0" resource="0" file="Source/MainComponent.h"/>
+      <FILE id="dcQl9k" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+    </GROUP>
+  </MAINGROUP>
+  <EXPORTFORMATS>
+    <VS2015 targetFolder="Builds/VisualStudio2015">
+      <CONFIGURATIONS>
+        <CONFIGURATION name="Debug" winWarningLevel="4" generateManifest="1" winArchitecture="32-bit"
+                       isDebug="1" optimisation="1" targetName="DialsComponent"/>
+        <CONFIGURATION name="Release" winWarningLevel="4" generateManifest="1" winArchitecture="32-bit"
+                       isDebug="0" optimisation="3" targetName="DialsComponent"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="../../Downloads/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../Downloads/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../Downloads/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../Downloads/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../Downloads/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../Downloads/JUCE/modules"/>
+        <MODULEPATH id="juce_cryptography" path="../../Downloads/JUCE/modules"/>
+        <MODULEPATH id="juce_video" path="../../Downloads/JUCE/modules"/>
+        <MODULEPATH id="juce_opengl" path="../../Downloads/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="../../Downloads/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../Downloads/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../Downloads/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../Downloads/JUCE/modules"/>
+      </MODULEPATHS>
+    </VS2015>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_cryptography" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_opengl" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_video" showAllCode="1" useLocalCopy="0"/>
+  </MODULES>
+  <JUCEOPTIONS/>
+</JUCERPROJECT>
